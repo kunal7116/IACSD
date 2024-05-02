@@ -18,8 +18,10 @@ public class CustomerValidation {
 		LocalDate birthdate = LocalDate.parse(dob);
 		// All inputs are valid!
 		//3.validate email
-		ValidateEmail(email);
-		return new Customer(first_name, last_name, email, password, reg_amt, birthdate, splan);
+		String vemail=ValidateEmail(email);
+		//4.validate password
+		String vpassword=ValidatePassword(password);
+		return new Customer(first_name, last_name, vemail, vpassword, reg_amt, birthdate, splan);
 	}
 	// validation for enumtype and its charges
 	public static ServicePlan parseAndValidateSplan(String s_plan, double reg_amt) throws CustException {
@@ -52,8 +54,18 @@ public class CustomerValidation {
 
 	}
 	
-	public static void ValidateEmail(String email) {
-		Customer newCust=new Customer(email);
 	
+	public static String ValidateEmail(String email) throws CustException{
+		if(email.matches("\\w+@[a-zA-Z]+\\.(org|com|net)$"))
+			return email;
+		throw new CustException("Invalid email format!");
+	}
+	
+	public static String ValidatePassword(String pass) throws CustException{
+		if(pass.matches("((?=.*\\d)(?=.*[a-z])(?=.*[#@$*]).{5,20})"))
+		{
+			return pass;
+		}
+		throw new CustException("Password must be alphanumeric!");
 	}
 }

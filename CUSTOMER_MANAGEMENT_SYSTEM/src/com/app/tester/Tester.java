@@ -25,7 +25,8 @@ public class Tester {
 			boolean exit = false;
 			while (!exit) {
 				System.out.println("-----MENU-----");
-				System.out.println("1. Signup \n2.Customer Details \n3.Login \n4.Change Password \n5.Delete Customer \n6.Exit");
+				System.out.println(
+						"1. Signup \n2.Customer Details \n3.Login \n4.Change Password \n5.Delete Customer \n6.Exit");
 				System.out.println("Enter your choice");
 				int choice = sc.nextInt();
 				try {
@@ -49,8 +50,8 @@ public class Tester {
 						System.out.println("Enter the Service Plan:");
 						String s_plan = sc.next();
 						// customer[i]=new Customer(cid,fname,lname,email,reg_amt,dob,splan);
-						Customer cust = CustomerValidation.validateInputs(first_name, last_name, email,
-								password, reg_amt, dob, s_plan, customerList);
+						Customer cust = CustomerValidation.validateInputs(first_name, last_name, email, password,
+								reg_amt, dob, s_plan, customerList);
 						customerList.add(cust);
 						System.out.println("Data Entered Successfully...");
 						break;
@@ -70,34 +71,34 @@ public class Tester {
 						System.out.println("Login Successful!!");
 						System.out.println(LoginUtility.VerifyLogin(userEmail, pass, customerList));
 						break;
-					
+
 					case 4:
 						System.out.println("-----Change you password-----");
 						System.out.println("Enter email");
-						String userEmail1=sc.next();
+						String userEmail1 = sc.next();
 						System.out.println("Enter old password");
-						String oldpass=sc.next();
+						String oldpass = sc.next();
 						System.out.println("Enter new password");
 						String newpass = sc.next();
-						System.out.println(SetPasswordUtility.ChangePass(userEmail1,oldpass,newpass,customerList));
+						System.out.println(SetPasswordUtility.ChangePass(userEmail1, oldpass, newpass, customerList));
 						break;
 
 					case 5:
 						System.out.println("----Deleting Customer----");
 						System.out.println("Enter the email");
-						String user1Email=sc.next();
-						System.out.println(DeleteUserUtility.DeleteUser(user1Email,customerList));
+						String user1Email = sc.next();
+						System.out.println(DeleteUserUtility.DeleteUser(user1Email, customerList));
 						break;
-					
+
 					case 6:
 						System.out.println("Exiting...");
 						exit = true;
 						break;
-					
+
 					default:
 						System.out.println("Enter valid Input");
 						break;
-						
+
 					}
 				} catch (Exception e) {
 					System.out.println(e);

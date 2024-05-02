@@ -49,6 +49,7 @@ public class CustomerValidation {
 
 	public static void CheckForDup(String email, List<Customer> customerList) throws CustException {
 		Customer newCust = new Customer(email);
+		//new customer object is created with email parameter and stored in newCust
 		if (customerList.contains(newCust))
 			throw new CustException("Dup Email!!");
 
@@ -68,4 +69,8 @@ public class CustomerValidation {
 		}
 		throw new CustException("Password must be alphanumeric!");
 	}
+	
+	
+	
+	
 }

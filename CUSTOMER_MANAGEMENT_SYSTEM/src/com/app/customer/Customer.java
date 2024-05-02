@@ -2,7 +2,7 @@ package com.app.customer;
 
 import java.time.LocalDate;
 
-public class Customer {
+public class Customer implements Comparable<Customer>{
 
 	private int cust_id;
 	private String first_name;
@@ -44,20 +44,41 @@ public class Customer {
 	public String getPassword() {
 		return password;
 	}
+	
+	
+	public LocalDate getDob() {
+		return dob;
+	}
 
-	public String toString() {
-		return "Customer Id:" + this.cust_id + " First Name:" + this.first_name + " Last Name:" + this.last_name
-				+ " Email:" + this.email + " Registrartion Amount:" + this.reg_amt + " DOB-" + this.dob
-				+ " Service Plan:" + this.s_plan;
+	public String getLast_name() {
+		return last_name;
 	}
 
 	@Override
 	public boolean equals(Object o) {
-//		System.out.println("Checking Login Creditnals...");
+    //System.out.println("Checking Login Creditnals...");
 		if (o instanceof Customer) {
 			Customer c = (Customer) o;
 			return this.email.equals(c.email);
 		}
 		return false;
 	}
+	
+	public int compareTo(Customer cust){
+		//Its Natural Ordering thats why we dont have to create a new class we have to write it within the customer
+	return getEmail().compareTo(cust.email);
+	}
+	
+	
+	public String toString() {
+		return "Customer Id:" + this.cust_id + " First Name:" + this.first_name + " Last Name:" + this.last_name
+				+ " Email:" + this.email + " Registrartion Amount:" + this.reg_amt + " DOB-" + this.dob
+				+ " Service Plan:" + this.s_plan;
+	}
+
+	
+		
+
+	
+
 }

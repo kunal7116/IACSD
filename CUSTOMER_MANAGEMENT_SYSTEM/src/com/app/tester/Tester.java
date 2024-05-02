@@ -1,14 +1,17 @@
 package com.app.tester;
 
+
 import com.app.customer.Customer;
 import com.app.customer.ServicePlan;
 import com.app.custval.CustomerValidation;
 import com.app.deleteUser.DeleteUserUtility;
 import com.app.login.LoginUtility;
 import com.app.setPass.SetPasswordUtility;
+import com.app.sortdob.CustomerDobLnameComparator;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -26,7 +29,10 @@ public class Tester {
 			while (!exit) {
 				System.out.println("-----MENU-----");
 				System.out.println(
-						"1. Signup \n2.Customer Details \n3.Login \n4.Change Password \n5.Delete Customer \n6.Exit");
+						"1. Signup \n2.Customer Details \n3.Login "
+						+ "\n4.Change Password \n5.Delete Customer "
+						+ "\n6.Sort Data as per Email"+ "\n7.Sort Data as per Dob and lastname"
+						+ "\n8.Remove Data as per dob"+"\n9.Exit");
 				System.out.println("Enter your choice");
 				int choice = sc.nextInt();
 				try {
@@ -91,6 +97,20 @@ public class Tester {
 						break;
 
 					case 6:
+						Collections.sort(customerList);
+						for (Customer c : customerList)
+							System.out.println(c);
+						break;
+					
+					case 7:
+						Collections.sort(customerList,new CustomerDobLnameComparator());
+						for (Customer c : customerList)
+							System.out.println(c);
+						break;
+					case 8:
+						break;
+					
+					case 9:
 						System.out.println("Exiting...");
 						exit = true;
 						break;

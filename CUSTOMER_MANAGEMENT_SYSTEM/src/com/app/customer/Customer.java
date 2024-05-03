@@ -1,7 +1,9 @@
 package com.app.customer;
 
 import java.time.LocalDate;
+import java.util.Iterator;
 
+//comprable is an interface of type Customer
 public class Customer implements Comparable<Customer>{
 
 	private int cust_id;
@@ -41,6 +43,10 @@ public class Customer implements Comparable<Customer>{
 		return email;
 	}
 
+	public String getFirst_name() {
+		return first_name;
+	}
+
 	public String getPassword() {
 		return password;
 	}
@@ -64,6 +70,8 @@ public class Customer implements Comparable<Customer>{
 		return false;
 	}
 	
+	
+	//NATURAL ORDERING
 	public int compareTo(Customer cust){
 		//Its Natural Ordering thats why we dont have to create a new class we have to write it within the customer
 	return getEmail().compareTo(cust.email);
@@ -74,11 +82,6 @@ public class Customer implements Comparable<Customer>{
 		return "Customer Id:" + this.cust_id + " First Name:" + this.first_name + " Last Name:" + this.last_name
 				+ " Email:" + this.email + " Registrartion Amount:" + this.reg_amt + " DOB-" + this.dob
 				+ " Service Plan:" + this.s_plan;
-	}
-
-	
-		
-
-	
+	}	
 
 }

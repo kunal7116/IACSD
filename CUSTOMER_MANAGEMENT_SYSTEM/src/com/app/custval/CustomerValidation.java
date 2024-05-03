@@ -1,6 +1,7 @@
 package com.app.custval;
 
 import java.time.LocalDate;
+import java.time.Period;
 import java.util.List;
 
 import com.app.customer.Customer;
@@ -21,6 +22,8 @@ public class CustomerValidation {
 		String vemail=ValidateEmail(email);
 		//4.validate password
 		String vpassword=ValidatePassword(password);
+		//5.Check for age
+		CheckForAge(birthdate);
 		return new Customer(first_name, last_name, vemail, vpassword, reg_amt, birthdate, splan);
 	}
 	// validation for enumtype and its charges
@@ -53,6 +56,7 @@ public class CustomerValidation {
 		if (customerList.contains(newCust))
 			throw new CustException("Dup Email!!");
 
+
 	}
 	
 	
@@ -60,6 +64,8 @@ public class CustomerValidation {
 		if(email.matches("\\w+@[a-zA-Z]+\\.(org|com|net)$"))
 			return email;
 		throw new CustException("Invalid email format!");
+
+
 	}
 	
 	public static String ValidatePassword(String pass) throws CustException{
@@ -70,7 +76,16 @@ public class CustomerValidation {
 		throw new CustException("Password must be alphanumeric!");
 	}
 	
-	
+	public static LocalDate CheckForAge(LocalDate birthdate) throws CustException {
+//		LocalDate date1=LocalDate.parse(birthdate);
+		int age=Period.between(birthdate, LocalDate.now()).getYears();
+		if(age<21) {
+			throw new CustException ("Invalid Age!!");
+		}
+		return birthdate;
+		
+		
+	}
 	
 	
 }

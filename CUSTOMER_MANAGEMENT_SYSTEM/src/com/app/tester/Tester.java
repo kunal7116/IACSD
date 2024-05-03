@@ -12,11 +12,13 @@ import com.app.sortdob.CustomerDobLnameComparator;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
 public class Tester {
 
+	@SuppressWarnings("unlikely-arg-type")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try (Scanner sc = new Scanner(System.in)) {
@@ -47,7 +49,7 @@ public class Tester {
 						String last_name = sc.next();
 						System.out.println("Enter the Email:");
 						String email = sc.next();
-						System.out.println("Enter the Password:");
+						System.out.println("Enter the Password: [It should contain atleast 1 Capital Letter, 1 Small Letter, 1 Number and 1 Special Character and the length should be 5 or more than that.]");
 						String password = sc.next();
 						System.out.println("Enter the Registration Amount:");
 						double reg_amt = sc.nextDouble();
@@ -74,8 +76,8 @@ public class Tester {
 						String userEmail = sc.next();
 						System.out.println("Enter the password");
 						String pass = sc.next();
-						System.out.println("Login Successful!!");
 						System.out.println(LoginUtility.VerifyLogin(userEmail, pass, customerList));
+						System.out.println("Login Successful!!");
 						break;
 
 					case 4:
@@ -108,6 +110,25 @@ public class Tester {
 							System.out.println(c);
 						break;
 					case 8:
+						System.out.println("Enter the dob to remove the data");
+						String dob1=sc.next();
+						LocalDate dob2=LocalDate.parse(dob1);
+						Iterator <Customer> itr = customerList.iterator(); 
+						//Created an iterator for Customer
+						while(itr.hasNext()){
+							//returns true if there is an element next to the iterator cursor
+//						Customer newCust = itr.next();
+							if(itr.next().getDob().equals(dob2)) {
+								//it will return next element in the iterator and check 
+								//whether the date given is matching the existing date or not
+								itr.remove();
+								//it will remove that iteration
+							}
+						}
+						System.out.println("Data Removed Successfully...");
+						 for (Customer c : customerList) {
+					            System.out.println(c);
+					        }
 						break;
 					
 					case 9:

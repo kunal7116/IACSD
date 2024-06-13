@@ -1,0 +1,2 @@
+module Cricketer_practise {
+}

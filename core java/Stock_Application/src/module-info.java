@@ -1,0 +1,2 @@
+module Stock_Application {
+}

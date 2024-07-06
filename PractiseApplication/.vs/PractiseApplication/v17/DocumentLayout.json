@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|c:\\users\\raval\\source\\repos\\practiseapplication\\practiseapplication1\\views\\product\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|solutionrelative:practiseapplication1\\views\\product\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|c:\\users\\raval\\source\\repos\\practiseapplication\\practiseapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|solutionrelative:practiseapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|c:\\users\\raval\\source\\repos\\practiseapplication\\practiseapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|solutionrelative:practiseapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|c:\\users\\raval\\source\\repos\\practiseapplication\\practiseapplication1\\views\\product\\getallproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|solutionrelative:practiseapplication1\\views\\product\\getallproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|c:\\users\\raval\\source\\repos\\practiseapplication\\practiseapplication1\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|solutionrelative:practiseapplication1\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|c:\\users\\raval\\source\\repos\\practiseapplication\\practiseapplication1\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|solutionrelative:practiseapplication1\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|c:\\users\\raval\\source\\repos\\practiseapplication\\practiseapplication1\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|solutionrelative:practiseapplication1\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|c:\\users\\raval\\source\\repos\\practiseapplication\\practiseapplication1\\repositories\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|solutionrelative:practiseapplication1\\repositories\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|c:\\users\\raval\\source\\repos\\practiseapplication\\practiseapplication1\\repositories\\collectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|solutionrelative:practiseapplication1\\repositories\\collectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|c:\\users\\raval\\source\\repos\\practiseapplication\\practiseapplication1\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|solutionrelative:practiseapplication1\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|c:\\users\\raval\\source\\repos\\practiseapplication\\practiseapplication1\\repositories\\iproductmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|solutionrelative:practiseapplication1\\repositories\\iproductmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|c:\\users\\raval\\source\\repos\\practiseapplication\\practiseapplication1\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52B773BF-E9BE-4572-AC76-483FF3AA9A42}|PractiseApplication1\\PractiseApplication1.csproj|solutionrelative:practiseapplication1\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeDocumentMoniker": "PractiseApplication1\\Views\\Product\\UpdateProduct.cshtml",
+              "ToolTip": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeToolTip": "PractiseApplication1\\Views\\Product\\UpdateProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T12:27:35.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetById.cshtml",
+              "DocumentMoniker": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Views\\Product\\GetById.cshtml",
+              "RelativeDocumentMoniker": "PractiseApplication1\\Views\\Product\\GetById.cshtml",
+              "ToolTip": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Views\\Product\\GetById.cshtml",
+              "RelativeToolTip": "PractiseApplication1\\Views\\Product\\GetById.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T12:27:33.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PractiseApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PractiseApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAIwCgAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T11:45:50.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAllProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Views\\Product\\GetAllProduct.cshtml",
+              "RelativeDocumentMoniker": "PractiseApplication1\\Views\\Product\\GetAllProduct.cshtml",
+              "ToolTip": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Views\\Product\\GetAllProduct.cshtml",
+              "RelativeToolTip": "PractiseApplication1\\Views\\Product\\GetAllProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T11:45:33.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Repositories\\ProductManager.cs",
+              "RelativeDocumentMoniker": "PractiseApplication1\\Repositories\\ProductManager.cs",
+              "ToolTip": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Repositories\\ProductManager.cs",
+              "RelativeToolTip": "PractiseApplication1\\Repositories\\ProductManager.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T11:02:04.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Repositories\\IProductManager.cs",
+              "RelativeDocumentMoniker": "PractiseApplication1\\Repositories\\IProductManager.cs",
+              "ToolTip": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Repositories\\IProductManager.cs",
+              "RelativeToolTip": "PractiseApplication1\\Repositories\\IProductManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T10:56:46.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "PractiseApplication1\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "PractiseApplication1\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAwwE4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T10:27:05.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Views\\Product\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "PractiseApplication1\\Views\\Product\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Views\\Product\\AddProduct.cshtml",
+              "RelativeToolTip": "PractiseApplication1\\Views\\Product\\AddProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T12:04:32.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "PractiseApplication1\\Models\\Products.cs",
+              "ToolTip": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Models\\Products.cs",
+              "RelativeToolTip": "PractiseApplication1\\Models\\Products.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAtwAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T10:34:07.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "PractiseApplication1\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Services\\ProductService.cs",
+              "RelativeToolTip": "PractiseApplication1\\Services\\ProductService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T11:10:37.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CollectionContext.cs",
+              "DocumentMoniker": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Repositories\\CollectionContext.cs",
+              "RelativeDocumentMoniker": "PractiseApplication1\\Repositories\\CollectionContext.cs",
+              "ToolTip": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Repositories\\CollectionContext.cs",
+              "RelativeToolTip": "PractiseApplication1\\Repositories\\CollectionContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T10:42:48.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "PractiseApplication1\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\raval\\source\\repos\\PractiseApplication\\PractiseApplication1\\Services\\IProductService.cs",
+              "RelativeToolTip": "PractiseApplication1\\Services\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T11:10:30.78Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
